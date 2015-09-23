@@ -1,0 +1,8 @@
+echo "Clobbering assets"
+bundle exec rake assets:clobber
+
+echo "Deleting the cache from tmp"
+rm -rf tmp/cache/
+
+echo "Precompiling the assets"
+bundle exec rake assets:precompile
