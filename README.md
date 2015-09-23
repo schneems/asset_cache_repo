@@ -10,7 +10,9 @@ This is trying to mimic how deploy releases work.
 Reproducing the :bug:
 
 1) Bundle both `asset_cache_test_parent` and `asset_cache_test_child` directories
+
 2) cd `asset_cache_test_parent`
+
 3) Run `./assets_script`
 
 This will clobber assets, remove your tmp/cache and then re-compile all assets.
